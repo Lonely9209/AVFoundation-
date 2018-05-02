@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01D2079D20995FCA0066F771 /* XFCameraPemission.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D2079B20995FCA0066F771 /* XFCameraPemission.m */; };
 		78BFF78B1DB0BAE100BDECB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BFF78A1DB0BAE100BDECB7 /* main.m */; };
 		78BFF78E1DB0BAE100BDECB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BFF78D1DB0BAE100BDECB7 /* AppDelegate.m */; };
 		78BFF7911DB0BAE100BDECB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BFF7901DB0BAE100BDECB7 /* ViewController.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01D2079B20995FCA0066F771 /* XFCameraPemission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFCameraPemission.m; sourceTree = "<group>"; };
+		01D2079C20995FCA0066F771 /* XFCameraPemission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFCameraPemission.h; sourceTree = "<group>"; };
 		78BFF7861DB0BAE100BDECB7 /* XFScanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XFScanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BFF78A1DB0BAE100BDECB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78BFF78C1DB0BAE100BDECB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				78BFF7A11DB0BB9000BDECB7 /* XFScanViewController.m */,
 				78BFF7A31DB0BC3000BDECB7 /* XFMaskView.h */,
 				78BFF7A41DB0BC3000BDECB7 /* XFMaskView.m */,
+				01D2079C20995FCA0066F771 /* XFCameraPemission.h */,
+				01D2079B20995FCA0066F771 /* XFCameraPemission.m */,
 				78BFF7921DB0BAE100BDECB7 /* Main.storyboard */,
 				78BFF7951DB0BAE100BDECB7 /* Assets.xcassets */,
 				78BFF7971DB0BAE100BDECB7 /* LaunchScreen.storyboard */,
@@ -115,7 +120,7 @@
 		78BFF77E1DB0BAE100BDECB7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = ZKXC;
 				TargetAttributes = {
 					78BFF7851DB0BAE100BDECB7 = {
@@ -165,6 +170,7 @@
 				78BFF7A21DB0BB9000BDECB7 /* XFScanViewController.m in Sources */,
 				78BFF78E1DB0BAE100BDECB7 /* AppDelegate.m in Sources */,
 				78BFF7A51DB0BC3000BDECB7 /* XFMaskView.m in Sources */,
+				01D2079D20995FCA0066F771 /* XFCameraPemission.m in Sources */,
 				78BFF78B1DB0BAE100BDECB7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,15 +206,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -249,15 +263,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;

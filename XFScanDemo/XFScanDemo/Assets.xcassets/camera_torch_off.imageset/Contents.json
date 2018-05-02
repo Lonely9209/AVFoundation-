@@ -2,7 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "camera_flash_off.png",
+      "filename" : "camera_torch_off.png",
       "scale" : "1x"
     },
     {
